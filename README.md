@@ -15,6 +15,8 @@
 ```
 
 
-week2 [백준] 그리디 알고리즘
-백준    실버4     1783 [병든나이트](https://www.acmicpc.net/problem/1783)<br/>
-백준    실버3     18310 [안테나](https://www.acmicpc.net/problem/18310)
+**week2 [백준] 그리디 알고리즘<br/>**
+| 출처 | 난이도 | 문제번호 |
+|----------|----------|----------|
+| 백준 | 실버4 |1783 [병든나이트](https://www.acmicpc.net/problem/1783)|
+| 백준 | 실버3 |18310 [안테나](https://www.acmicpc.net/problem/18310)|
