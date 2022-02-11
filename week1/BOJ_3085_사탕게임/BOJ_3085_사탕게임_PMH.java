@@ -25,35 +25,46 @@ public class 사탕게임 {
 //		print();
 		
 		// 완전탐색
-		for (int r = 0; r < N-1; r++) {
-			for (int c = 0; c < N-1; c++) {
+		for (int r = 0; r < N; r++) {
+			for (int c = 0; c < N; c++) { // r<N-1, c<N-1로 코드 짤 때 반례 : arr[0][N-2]<-> arr[0][N-1]
 				
 //			바꿀 좌표 : r,c
-			//r+1 N미만인지 확인 후 오른쪽과 바꾸기(swap)
-			if (arr[r][c]!=arr[r+1][c]) {
-				// 1. 경계선 체크 후, 바꾸기
-				swap(r,c,r+1,c);
 				
+			//경계선 체크(r+1 N미만인지 확인) 후 오른쪽과 바꾸기(swap)
+			if (r+1<N) {
+				
+				// 1. 다음 좌표와 다르다면 바꾸기
+				if(arr[r][c]!=arr[r+1][c]) {
+					swap(r,c,r+1,c);
+				}
 				// 2. 해당 좌표에서 최대 개수 탐색 (바뀐 좌표만 탐색해서 시간 줄이기 )
 				check(r,c);
 				check(r+1,c);
 				
-				// 3. 원복  
-				swap(r+1,c,r,c);
+				// 3. 원복
+				if(arr[r][c]!=arr[r+1][c]) {
+					swap(r+1,c,r,c);
+				}
 				
 			}
 				
-			//c+1 N미만인지 확인 후 아래쪽과 바꾸기(swap)
-			if(c+1 < N) {
-				// 1. 경계선 체크 후, 바꾸기
-				swap(r,c,r,c+1);
+			//경계선 체크(c+1 N미만인지 확인) 후 아래쪽과 바꾸기(swap)
+			if(c+1<N) { //  && arr[r][c]!=arr[r][c+1] 여기에 추가하면 안되는이유 :
+				// arr[r][c]== arr[r][c+1]이라서 swap이 안일어났지만 최대 갯수인거 못찾아냄
+				
+				// 1.다음 좌표와 다르다면 바꾸기
+				if(arr[r][c]!=arr[r][c+1]) {
+					swap(r,c,r,c+1);
+				}
 				
 				// 2. 해당 좌표애서 최대 개수 탐색(바뀐 좌표만 탐색해서 시간 줄이기) 
 				check(r,c);
 				check(r,c+1);
 				
 				// 3. 원복
-				swap(r,c+1,r,c);
+				if(arr[r][c]!=arr[r][c+1]) {
+					swap(r,c+1,r,c);
+				}
 				
 			}
 				
