@@ -18,5 +18,9 @@
 **week2 [백준] 그리디 알고리즘<br/>**
 | 출처 | 난이도 | 문제번호 |
 |----------|----------|----------|
+| 백준 | 실버1 |[11497 통나무 건너뛰기](https://www.acmicpc.net/problem/11497)|
+| 백준 | 실버3 |[1448 삼각형 만들기](https://www.acmicpc.net/problem/1448)|
 | 백준 | 실버4 |[1783 병든나이트](https://www.acmicpc.net/problem/1783)|
 | 백준 | 실버3 |[18310 안테나](https://www.acmicpc.net/problem/18310)|
+| 백준 | 실버3 |[11047 동전 0](https://www.acmicpc.net/problem/11047)|
+
