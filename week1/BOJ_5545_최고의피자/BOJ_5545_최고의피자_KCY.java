@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Main {
+public class BOJ_최고의_피자 {
 	/**
 	 * 첫째 줄에 토핑의 종류의 수 N(1 ≤ N ≤ 100)이 주어진다. 
 	 * 둘째 줄에는 도우의 가격 A와 토핑의 가격 B가 주어진다. (1 ≤ A, B ≤ 1000) 
@@ -29,21 +29,18 @@ public class Main {
 		for (int i = 0; i < N; i++) {
 			topings[i] = Integer.parseInt(br.readLine());
 		}
-		//System.out.println(Arrays.toString(topings));
+		// 열량 오름차순 정렬
 		Arrays.sort(topings);
 		int pizzaPrice = A;
 		int totalCal = C;
-		res = A/C;
-		
+		// 피자 1원 당 열량 = 칼로리/피자가격
+		res = C/A;
+		// 오름차순정렬, 끝에서부터 카운트
 		for(int i= N-1; i>=0; i--) {
 			pizzaPrice += B;
 			totalCal += topings[i];
 			res = Math.max(res, totalCal/pizzaPrice);
 		}
-		// 이 피자 가게는 토핑 N개에서 여러 종류를 선택해서 주문할 수 있다. 같은 종류의 토핑을 2개 이상 선택할 수는 없다. 또, 토핑을 전혀
-		// 선택하지 않을 수도 있다.
-		// 중복 X 순열
-		// 방문배열, 인덱스, 고른 토핑 배열
 		System.out.println(res);
 	}
 
