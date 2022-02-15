@@ -1,3 +1,5 @@
+![header](https://capsule-render.vercel.app/api?type=rect&color=gradient&height=250&section=header&text=Algo%20Study&fontSize=90)
+
 ## 🏆AlgoStudy
 
 알고리즘 코드 공유 게시판입니다!
