@@ -1,18 +1,14 @@
 ## 🏆AlgoStudy
-
 알고리즘 코드 공유 게시판입니다!
 <br/>
 <br/>
 
 ## 📆 기간
-
 2022 상반기 (2022.02 ~ 2022.06)
-
 <br/>
 <br/>
 
 ## 👨‍👨‍👧‍👧Member
-
 <table >
   <tr height="125px">
     <td align="center" width="120px">
@@ -27,8 +23,7 @@
     </td>
     <td align="center" width="120px">
       <a href="https://github.com/slovecoms"><img src="https://avatars.githubusercontent.com/u/50094967?v=4"/></a>
-    </td>
-  
+    </td>  
   </tr>
   <tr height="70px">
     <td align="center" width="120px">
@@ -49,8 +44,6 @@
     </td>
   </tr>
 </table>
-
-<br/>
 <br/>
 
 ## 📝 문제
