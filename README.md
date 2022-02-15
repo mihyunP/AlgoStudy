@@ -1,14 +1,17 @@
 ## 🏆AlgoStudy
+
 알고리즘 코드 공유 게시판입니다!
 <br/>
 <br/>
 
 ## 📆 기간
+
 2022 상반기 (2022.02 ~ 2022.06)
 <br/>
 <br/>
 
 ## 👨‍👨‍👧‍👧Member
+
 <table >
   <tr height="125px">
     <td align="center" width="120px">
@@ -45,6 +48,44 @@
   </tr>
 </table>
 <br/>
+
+## 🤙 Convention
+
+### 1️⃣ Folder Convention
+
+- 폴더 명 : `문제사이트_문제번호_문제이름`
+  - ex : `BOJ_5545_최고의피자`
+
+```
+AlgoStudy
+|
++---week1
+|   +---BOJ_3085_사탕게임
+|   |       BOJ_3085_사탕게임_KCY.java
+|   |       BOJ_3085_사탕게임_PMH.java
+|   |       BOJ_3085_사탕게임_SHS.java
+|   |       BOJ_3085_사탕게임_YJW.py
+|   |
+|   \---BOJ_5545_최고의피자
+|           BOJ_5545_최고의피자_KCY.java
+|           BOJ_5545_최고의피자_PMH.java
+|           BOJ_5545_최고의피자_SHS.java
+|           BOJ_5545_최고의피자_YJW.py
+|
+\---week2
+    +---BOJ_11497_통나무건너뛰기
+            BOJ_11497_통나무건너뛰기_KCY.java
+            BOJ_11497_통나무건너뛰기_PMH.java
+            BOJ_11497_통나무건너뛰기_SHS.java
+            BOJ_11497_통나무건너뛰기_YJW.py
+```
+
+### 2️⃣ File Name Convention
+
+- 파일 명 : `문제사이트_문제번호_문제이름_작성자`
+  - ex : `BOJ_5545_최고의피자_KCY.java`
+
+<br />
 
 ## 📝 문제
 
