@@ -1,8 +1,59 @@
-# AlgoStudy
+## 🏆AlgoStudy
+
 알고리즘 코드 공유 게시판입니다!
+<br/>
+<br/>
 
+## 📆 기간
 
-### 2022 상반기 (2022.02 ~ 2022.06)
+2022 상반기 (2022.02 ~ 2022.06)
+
+<br/>
+<br/>
+
+## 👨‍👨‍👧‍👧Member
+
+<table >
+  <tr height="125px">
+    <td align="center" width="120px">
+      <a href="https://github.com/mihyunP">
+      <img src="https://avatars.githubusercontent.com/u/69749222?v=4"/></a>
+    </td>
+    <td align="center" width="120px">
+      <a href="https://github.com/lena-yun/"><img src="https://avatars.githubusercontent.com/u/71312504?v=4"/></a>
+    </td>
+    <td align="center" width="120px">
+      <a href="https://github.com/chaeyeonkim0223"><img src="https://avatars.githubusercontent.com/u/86418158?v=4"/></a>
+    </td>
+    <td align="center" width="120px">
+      <a href="https://github.com/slovecoms"><img src="https://avatars.githubusercontent.com/u/50094967?v=4"/></a>
+    </td>
+  
+  </tr>
+  <tr height="70px">
+    <td align="center" width="120px">
+      <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=saem7777" />
+      <a href="https://github.com/ed-kyu">한샘</a>
+    </td>
+    <td align="center" width="120px">
+      <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=baekyoon" />
+      <a href="https://github.com/jiwon6141/">지원</a>
+    </td>
+    <td align="center" width="120px">
+      <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=tomybaru" />
+      <a href="https://github.com/seokzin/">채연</a>
+    </td>
+    <td align="center" width="120px">
+      <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=soultreeforgood" />
+      <a href="https://github.com/mihyunhaha">미현</a>
+    </td>
+  </tr>
+</table>
+
+<br/>
+<br/>
+
+## 📝 문제
 
 **week1 [백준] 구현, 반복문, 배열**
 | 출처 | 난이도 | 문제번호 |
@@ -13,7 +64,8 @@
 | 백준 | 실버1 |[2178 미로탐색](https://www.acmicpc.net/problem/2178)|
 | 백준 | 실버3 |[3085 사탕게임](https://www.acmicpc.net/problem/3085)|
 | 백준 | 실버3 |[5545 최고의 피자](https://www.acmicpc.net/problem/5545)|
-  
+
+<br/>
 
 **week2 [백준] 그리디 알고리즘<br/>**
 | 출처 | 난이도 | 문제번호 |
@@ -23,4 +75,3 @@
 | 백준 | 실버4 |[1783 병든나이트](https://www.acmicpc.net/problem/1783)|
 | 백준 | 실버3 |[18310 안테나](https://www.acmicpc.net/problem/18310)|
 | 백준 | 실버3 |[11047 동전 0](https://www.acmicpc.net/problem/11047)|
-
