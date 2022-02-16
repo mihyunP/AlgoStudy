@@ -32,11 +32,11 @@
   </tr>
   <tr height="70px">
     <td align="center" width="120px">
-      <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=saem7777" />
+      <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=mihyunhaha" />
       <a href="https://github.com/mihyunP">미현</a>
     </td>
     <td align="center" width="120px">
-      <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=baekyoon" />
+      <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=jiwon6141" />
       <a href="https://github.com/lena-yun/">지원</a>
     </td>
     <td align="center" width="120px">
@@ -44,7 +44,7 @@
       <a href="https://github.com/chaeyeonkim0223/">채연</a>
     </td>
     <td align="center" width="120px">
-      <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=soultreeforgood" />
+      <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=saem7777" />
       <a href="https://github.com/slovecoms">한샘</a>
     </td>
   </tr>
