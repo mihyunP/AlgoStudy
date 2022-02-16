@@ -33,19 +33,19 @@
   <tr height="70px">
     <td align="center" width="120px">
       <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=saem7777" />
-      <a href="https://github.com/ed-kyu">한샘</a>
+      <a href="https://github.com/mihyunP">미현</a>
     </td>
     <td align="center" width="120px">
       <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=baekyoon" />
-      <a href="https://github.com/jiwon6141/">지원</a>
+      <a href="https://github.com/lena-yun/">지원</a>
     </td>
     <td align="center" width="120px">
       <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=tomybaru" />
-      <a href="https://github.com/seokzin/">채연</a>
+      <a href="https://github.com/chaeyeonkim0223/">채연</a>
     </td>
     <td align="center" width="120px">
       <img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=soultreeforgood" />
-      <a href="https://github.com/mihyunhaha">미현</a>
+      <a href="https://github.com/slovecoms">한샘</a>
     </td>
   </tr>
 </table>
