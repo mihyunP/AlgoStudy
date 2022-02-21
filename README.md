@@ -111,3 +111,14 @@ AlgoStudy
 | 백준 | 실버4 |[1783 병든나이트](https://www.acmicpc.net/problem/1783)|
 | 백준 | 실버3 |[18310 안테나](https://www.acmicpc.net/problem/18310)|
 | 백준 | 실버3 |[11047 동전 0](https://www.acmicpc.net/problem/11047)|
+
+<br/>
+
+**week3 [백준] 문자열 알고리즘<br/>**
+| 출처 | 난이도 | 문제번호 |
+|----------|----------|----------|
+| 백준 | 브론즈2 |[10820 문자열 분석](https://www.acmicpc.net/problem/10820)|
+| 백준 | 브론즈3 |[1212 8진수 2진수](https://www.acmicpc.net/problem/1212)|
+| 백준 | 실버1 |[17609 회문](https://www.acmicpc.net/problem/17609)|
+| 백준 | 실버4 |[9342 염색체](https://www.acmicpc.net/problem/9342)|
+| 백준 | 실버3 |[14425 문자열 ](https://www.acmicpc.net/problem/14425)|
