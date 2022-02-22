@@ -74,6 +74,11 @@ public class 안테나_오2 {
 		}
 	
 		// arr 배열에 집 위치 전체 넣기, list에 중복 제거한 집 위치 넣어서 list의 각 원소별 '거리 최솟값' 구하고 그때의 list '원소값' 출력하기
+		/*
+		 * (틀린이유)
+		 * res가 int 범위 벗어남(int->long)
+		 * 시간초과 뜸
+		 */
 		int res = Integer.MAX_VALUE; // 거리 최솟값
 		int ans = -1; // 원소값
 		
