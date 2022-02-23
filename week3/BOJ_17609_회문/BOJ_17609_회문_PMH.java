@@ -2,7 +2,7 @@ package week3_문자열;
 
 import java.util.Scanner;
 
-public class 회문 {
+public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -32,19 +32,18 @@ public class 회문 {
 			}
 			// 회문이 아닌경우
 			else {
-				
-				int cnt = 0; 
 				int start = -1; 
 				int end = len; 
 				while(true) {
-					
 					start+=1; 
 					end-=1; 
 					
 					if (str.charAt(start) != str.charAt(end)) {						
 						
+						// 반례 : aapqbcbqpqaa ***앞에서 재껴지고, 뒤에서도 재껴지지만 뒤에서 재낄때만 유사회문이 되므로 앞/뒤 두 곳에서 다 재껴보기!***
 						// 앞에서 재끼기
 						if (str.charAt(start+1)==str.charAt(end)) {
+							
 							String temp = str.substring(start+1, end+1);							
 							sb = new StringBuffer(temp); 
 							String revTemp = sb.reverse().toString();
@@ -55,12 +54,10 @@ public class 회문 {
 							if (temp.equals(revTemp)) {
 								System.out.println(1); // 유사회문
 								break;
-							}else {
-								System.out.println(2); // 그외
-								break;
 							}	
+						}
 						// 뒤에서 재끼기	
-						}else if (str.charAt(start)==str.charAt(end-1)) {
+						if (str.charAt(start)==str.charAt(end-1)) {
 							
 							String temp = str.substring(start, end);
 							sb = new StringBuffer(temp); 
@@ -72,15 +69,10 @@ public class 회문 {
 							if (temp.equals(revTemp)) {
 								System.out.println(1); // 유사회문
 								break;
-							}else {
-								System.out.println(2); // 그외
-								break;
 							}
-							
-						}else {
-							System.out.println(2); // 그외
-							cnt=2;
-//							System.out.println(i+" "+str+" "+cnt);
+						}
+						
+						System.out.println(2); // 그외
 							break;
 						}
 					}
@@ -91,8 +83,5 @@ public class 회문 {
 			
 			
 		}
-		
 
 	}
-
-}
