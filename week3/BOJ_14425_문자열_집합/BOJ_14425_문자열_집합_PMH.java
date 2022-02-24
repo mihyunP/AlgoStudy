@@ -30,9 +30,6 @@ public class 문자열집합 {
 		}
 		
 		int cnt = 0;
-
-		Arrays.sort(arrN);
-		Arrays.sort(arrM);
 		
 		for (int i = 0; i < arrM.length; i++) {
 			for (int j = 0; j < arrN.length; j++) {
