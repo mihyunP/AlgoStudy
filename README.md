@@ -122,3 +122,14 @@ AlgoStudy
 | 백준 | 실버1 |[17609 회문](https://www.acmicpc.net/problem/17609)|
 | 백준 | 실버4 |[9342 염색체](https://www.acmicpc.net/problem/9342)|
 | 백준 | 실버3 |[14425 문자열 ](https://www.acmicpc.net/problem/14425)|
+
+<br/>
+
+**week4 [백준] 구현 알고리즘<br/>**
+| 출처 | 난이도 | 문제번호 |
+|----------|----------|----------|
+| 백준 | 실버4 |[2503 숫자 야구](https://www.acmicpc.net/problem/2503)|
+| 백준 | 실버5 |[10709 기상캐스터](https://www.acmicpc.net/problem/10709)|
+| 백준 | 실버2 |[2290 LCD Test](https://www.acmicpc.net/problem/2290)|
+| 백준 | 브론즈2 |[1371 가장 많은 글자](https://www.acmicpc.net/problem/1371)|
+| 백준 | 실버4 |[10994 별 찍기 - 19](https://www.acmicpc.net/problem/10994)|
