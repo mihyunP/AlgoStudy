@@ -5,7 +5,7 @@ import sys
 n = int(input())
 star_len = 4*n-3
 star_li =[[' ' for _ in range(star_len)] for _ in range(star_len)]
-print(star_li)
+
 
 def fill_star(n,x,y):
     if n ==1:
