@@ -133,3 +133,14 @@ AlgoStudy
 | 백준 | 실버2 |[2290 LCD Test](https://www.acmicpc.net/problem/2290)|
 | 백준 | 브론즈2 |[1371 가장 많은 글자](https://www.acmicpc.net/problem/1371)|
 | 백준 | 실버4 |[10994 별 찍기 - 19](https://www.acmicpc.net/problem/10994)|
+
+<br/>
+
+**week5 [백준] 재귀 알고리즘<br/>**
+| 출처 | 난이도 | 문제번호 |
+|----------|----------|----------|
+| 백준 | 실버1 |[11729 하노이 탑 이동 순서](https://www.acmicpc.net/problem/11729)|
+| 백준 | 실버2 |[1780 종이의 개수](https://www.acmicpc.net/problem/1780)|
+| 백준 | 실버2 |[16974 레벨 햄버거](https://www.acmicpc.net/problem/16974)|
+| 백준 | 실버3 |[2630 색종이 만들기](https://www.acmicpc.net/problem/2630)|
+| 백준 | 실버1 |[9934 완전 이진 트리](https://www.acmicpc.net/problem/9934)|
