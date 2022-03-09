@@ -20,6 +20,5 @@ while True:
     for i in lotto:
         for j in i:
             print(j,end=' ')
-            # print(j)
         print()
     print()
