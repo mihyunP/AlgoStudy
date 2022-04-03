@@ -13,15 +13,20 @@ public class BOJ_2839_설탕배달 {
 		int cnt = 0; // 배달 봉지 수
 		
 		
-		
-		while (N%5 != 0) {
-			N-=3;
-			cnt++;
-		} 
-		
-		if (N>=0) {
-			cnt += N/5;
-			ans = cnt;
+		while (true) {
+
+			if (N%5 == 0) {
+				cnt += N/5;
+				ans = cnt;
+				break;
+			}else {
+				N-=3;
+				cnt++;					
+				}
+			
+			if (N<0) {
+				break;
+			}
 		}
 		
 		System.out.println(ans);
